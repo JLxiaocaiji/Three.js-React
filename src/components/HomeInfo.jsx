@@ -27,12 +27,12 @@ const renderContent = {
     3: <InfoBox 
             text="跳转Projects页面\跳转Projects页面"
             link="/projects"
-            btnText='跳转Projects页面'
+            btnText='跳转Projects'
         ></InfoBox>,
     4: <InfoBox 
             text="跳转Contact页面\跳转Contact页面"
             link="/contact"
-            btnText='跳转Contact页面'
+            btnText='跳转contact'
         ></InfoBox>,
 }
 
