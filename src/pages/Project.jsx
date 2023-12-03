@@ -15,19 +15,19 @@ const Projects = () => {
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-        1234123423RSADFSDAWSASDCZCXASDFAS
+        just write some thing
       </p>
 
       <div className='flex flex-wrap my-20 gap-16'>
         {projects.map((project) => (
           <div className='lg:w-[400px] w-full' key={project.name}>
             <div className='block-container w-12 h-12'>
-              <div className={`btn-back rounded-xl ${project.theme}`} />
+              {/* <div className={`btn-back rounded-xl ${project.theme}`} /> */}
               <div className='btn-front rounded-xl flex justify-center items-center'>
                 <img
                   src={project.iconUrl}
                   alt='threads'
-                  className='w-1/2 h-1/2 object-contain'
+                  className='w-50 h-50 object-contain'
                 />
               </div>
             </div>

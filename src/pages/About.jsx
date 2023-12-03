@@ -15,13 +15,13 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          12312asdasdasdcasdascasadasdasdacxz
+          ABABABABAABABABABABABABABABAAB
         </p>
       </div>
 
       {/* py: p-t && p-b */}
       <div className='py-10 flex flex-col'>
-        <h3 className='subhead-text'>My Skills</h3>
+        <h3 className='subhead-text'>一些前端技术栈</h3>
 
         <div className='mt-16 flex flex-wrap gap-12'>
           { skills.map( (skill) => (
@@ -47,7 +47,6 @@ const About = () => {
               { experiences.map( experience => 
                 <VerticalTimelineElement
                   key={experience.company_name }
-                  date={ experience.date }
 
                   icon={
                     <div className='flex justify-center items-center w-full h-full'>

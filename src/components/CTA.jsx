@@ -5,7 +5,7 @@ const CTA = () => {
   return (
     <section className='cta'>
       <p className='cta-text'>
-        test
+        Test
       </p>
 
       <Link to='/contact' className="btn">

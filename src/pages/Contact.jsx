@@ -67,7 +67,7 @@ const Contact = () => {
 
       showAlert({ 
         show: true, 
-        message: '谷歌邮箱账号验证错误：412 Gmail_API: Precondition check failed.',
+        text: '谷歌邮箱账号验证错误：412 Gmail_API: Precondition check failed.',
         type: 'danger',
       })
     })
@@ -75,8 +75,9 @@ const Contact = () => {
       setTimeout(()=> {
         hideAlert()
         setCurrentAnimation('idle')
+        setIsLoading(false);
         setForm({ name: '', email: '', message: ''})
-      }, 3000)
+      }, 5000)
     })
   }
 
@@ -86,8 +87,9 @@ const Contact = () => {
       { alert.show && <Alert {...alert} /> }
 
       <div className='flex-1 min-w-[50%] flex flex-col'>
-        <h1 className='head-text'>
-        <br/></h1>
+        <h3 className='head-text'>
+          谷歌邮箱失效，页面仅展示
+        <br/></h3>
 
         <form className='w-full flex flex-col gap-7 mt-14'
         ref={formRef}

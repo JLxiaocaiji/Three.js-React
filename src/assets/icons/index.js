@@ -16,12 +16,12 @@ import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
-import car from './car.svg'
-import estate from './estate.svg'
-import pricewise from './pricewise.svg'
-import snapgram from './snapgram.svg'
-import summiz from './summiz.svg'
-import threads from './threads.svg'
+import gree from './gree.svg'
+import ali from './ali.svg'
+import baidu from './baidu.svg'
+import tenxun from './tenxun.svg'
+import yuanshen from './yuanshen.svg'
+import xiaomi from './xiaomi.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
@@ -46,12 +46,12 @@ export {
     typescript,
     linkedin,
     twitter,
-    car,
-    estate,
-    pricewise,
-    snapgram,
-    summiz,
-    threads,
+    gree,
+    ali,
+    baidu,
+    tenxun,
+    yuanshen,
+    xiaomi,
     arrow,
     contact,
     soundon,

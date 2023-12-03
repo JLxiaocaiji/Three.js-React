@@ -15,7 +15,9 @@ const InfoBox = ({ text, link, btnText }) => (
 
 const renderContent = {
     1: <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
-        主页面,  let's start
+        github 项目仿写
+        <br />
+        <span className='font-semibold mx-2 text-white'>左右滑动试试</span>
         </h1>,
     2: <InfoBox 
             text="跳转About页面\跳转About页面\跳转About页面"
